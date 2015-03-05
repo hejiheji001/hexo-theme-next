@@ -2,7 +2,7 @@ menu:
   home: /
   archives: /archives
   tags: /tags
-  #about: /about
+  about: /about
 
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
@@ -49,3 +49,9 @@ images: images
 
 # Theme version
 version: 0.3.0rc4
+
+
+social:
+  google+: https://plus.google.com/u/0/+FireAwayH/posts
+  github: https://github.com/hejiheji001
+  weibo: http://weibo.com/fireaway

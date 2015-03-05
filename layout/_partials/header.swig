@@ -3,7 +3,7 @@
         <span class="logo">
           <i class="icon-logo"></i>
         </span>
-        <span class="site-title">{{ config.title }}</span>
+        <span class="site-title">{{ config.subtitle }}</span>
     </a>
 </h1>
 
