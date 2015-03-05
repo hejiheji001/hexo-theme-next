@@ -23,11 +23,9 @@
           {% else %}
             {% set postsClass = "posts-collapse" %}
           {% endif %}
-
           <div id="posts" class="{{ postsClass }}">
             {% block content %}{% endblock %}
           </div>
-
           {% if not is_post() and (page.prev || page.next) %}
             <div class="pagination">
               {{ paginator({prev_text: '&laquo;', next_text: '&raquo;'}) }}
@@ -48,12 +46,10 @@
 
     <div class="back-to-top"></div>
   </div>
-
   <script type="text/javascript" src="{{ url_for(theme.vendors) }}/jquery/index.js?v=2.1.3"></script>
-
-  {% include '_scripts/fancy-box.swig' %}
   {% include '_scripts/helpers.swig' %}
   {% include '_scripts/motion.swig' %}
+  {% include '_scripts/ripple.swig' %}
 
   {% block script_extra %}{% endblock %}
 

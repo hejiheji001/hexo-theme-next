@@ -1,12 +1,14 @@
 <h1 class="site-meta">
-    <a href="{{ config.root }}" class="brand" ripple="0">
+    <!-- <a href="#" x="{{ config.root }}" class="brand"> -->
+    <button class="brand" ripple="0" id="site-brand">
         <span class="logo" ripple="1">
           <i class="icon-logo" ripple="2"></i>
         </span>
-        <span class="site-title" ripple="1">{{ config.subtitle }}</span>
-    </a>
+        <span class="site-title" ripple="1" id="site-subtitle">{{ config.subtitle }}</span>
+        <!-- <span class="site-title" ripple="1" id="site-title" style="display:none;">{{ config.title }}</span> -->
+    <!-- </a> -->
+    </button>
 </h1>
-
 {% if theme.menu %}
   <ul id="menu" class="menu">
     {% for name, path in theme.menu %}

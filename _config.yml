@@ -4,8 +4,21 @@ menu:
   tags: /tags
   about: /about
 
+language: zh-Hans
+
+duoshuo_shortname: "sparksfly"
+
+ripple: true
+
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
+
+# NexT Sidebar
+avatar: /images/fireawayh.jpg
+social:
+  google+: https://plus.google.com/+FireAwayH
+  github: https://github.com/hejiheji001
+  weibo: http://weibo.com/fireaway
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -16,21 +29,18 @@ rss:
 # Place your font into next/source/fonts, specify directory-name and font-name here
 # Avialable: default | linecons | fifty-shades | feather
 icon_font: default
-#icon_font: fifty-shades
-#icon_font: feather
-#icon_font: linecons
+# icon_font: fifty-shades
+# icon_font: feather
+# icon_font: linecons
 
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # MathJax Support
 mathjax:
-
-
-
 
 
 ## DO NOT EDIT THE FOLLOWING SETTINGS
@@ -49,9 +59,3 @@ images: images
 
 # Theme version
 version: 0.3.0rc4
-
-
-social:
-  google+: https://plus.google.com/u/0/+FireAwayH/posts
-  github: https://github.com/hejiheji001
-  weibo: http://weibo.com/fireaway
