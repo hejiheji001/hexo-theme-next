@@ -1,9 +1,9 @@
 <h1 class="site-meta">
-    <a href="{{ config.root }}" class="brand">
-        <span class="logo">
-          <i class="icon-logo"></i>
+    <a href="{{ config.root }}" class="brand" ripple="0">
+        <span class="logo" ripple="1">
+          <i class="icon-logo" ripple="2"></i>
         </span>
-        <span class="site-title">{{ config.subtitle }}</span>
+        <span class="site-title" ripple="1">{{ config.subtitle }}</span>
     </a>
 </h1>
 
