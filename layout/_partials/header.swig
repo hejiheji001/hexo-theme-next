@@ -4,7 +4,7 @@
         <span class="logo" ripple="1">
           <i class="icon-logo" ripple="2"></i>
         </span>
-        <span class="site-title" ripple="1" id="site-subtitle">{{ config.subtitle }}</span>
+        <span class="site-title" ripple="1" id="site-subtitle">{{ config.title }}</span>
         <!-- <span class="site-title" ripple="1" id="site-title" style="display:none;">{{ config.title }}</span> -->
     <!-- </a> -->
     </button>
