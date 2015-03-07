@@ -4,10 +4,15 @@
         <span class="logo" ripple="1">
           <i class="icon-logo" ripple="2"></i>
         </span>
-        <span class="site-title" ripple="1" id="site-subtitle">{{ config.title }}</span>
-        <!-- <span class="site-title" ripple="1" id="site-title" style="display:none;">{{ config.title }}</span> -->
-    <!-- </a> -->
+        <span class="site-title" ripple="1" id="site-title">{{ config.title }}</span>
     </button>
+    {% if config.titles %}
+      <script>
+        var titles = "{{ config.titles }}".split(",");
+        var random = (Math.random()*2).toFixed();
+        document.getElementById('site-title').innerHTML = titles[random];
+      </script>
+    {% endif %}
 </h1>
 {% if theme.menu %}
   <ul id="menu" class="menu">
