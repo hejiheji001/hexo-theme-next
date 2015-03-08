@@ -12,7 +12,7 @@
 ###1. New Android 5.0 Ripple Effect
 Add ripple attribute to HTML tag. The effect will show on the element where its ripple="0"
 eg.
-```
+```HTML
 <p ripple="0">
 	<a href="" ripple="1"></a>
 	<span ripple="1">
