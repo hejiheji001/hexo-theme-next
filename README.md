@@ -1,7 +1,7 @@
 <!-- ### 本主题修改自[iissnan](https://github.com/iissnan/hexo-theme-next) 的NexT主题 -->
 ### This theme is forked from [iissnan](https://github.com/iissnan/hexo-theme-next)
 
-<!-- [在线预览](http://www.fireawayh.com) |  -->[Preview](http://www.fireawayh.com)
+[Preview](http://www.fireawayh.com)
 
 ##Installation
 ```Shell
