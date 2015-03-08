@@ -1,11 +1,13 @@
-## 本主题修改自[iissnan](https://github.com/iissnan/hexo-theme-next) 的NexT主题
-## 并修改了部分CSS样式
-
-## This theme is forked from [iissnan](https://github.com/iissnan/hexo-theme-next)
-## I just modified some CSS files
-
+### 本主题修改自[iissnan](https://github.com/iissnan/hexo-theme-next) 的NexT主题
+### This theme is forked from [iissnan](https://github.com/iissnan/hexo-theme-next)
 
 [在线预览](http://www.fireawayh.com) | [Preview](http://www.fireawayh.com)
+
+##Installation
+```Shell
+cd folder/of/your/site
+git clone git@github.com:hejiheji001/hexo-theme-next.git themes/next
+```
 
 ##Changes
 
