@@ -47,9 +47,11 @@
     <div class="back-to-top"></div>
   </div>
   <script type="text/javascript" src="{{ url_for(theme.vendors) }}/jquery/index.js?v=2.1.3"></script>
+
   {% include '_scripts/helpers.swig' %}
   {% include '_scripts/motion.swig' %}
   {% include '_scripts/ripple.swig' %}
+  {% include '_scripts/showHint.swig' %}
 
   {% block script_extra %}{% endblock %}
 
