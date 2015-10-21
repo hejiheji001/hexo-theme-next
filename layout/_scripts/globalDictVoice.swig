@@ -1,0 +1,1 @@
+<script type="text/javascript" src="/scripts/globalDictVoice.js?v=2.1.3"></script>

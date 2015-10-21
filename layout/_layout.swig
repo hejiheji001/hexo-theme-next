@@ -52,6 +52,7 @@
   {% include '_scripts/motion.swig' %}
   {% include '_scripts/ripple.swig' %}
   {% include '_scripts/showHint.swig' %}
+  {% include '_scripts/globalDictVoice.swig' %}
 
   {% block script_extra %}{% endblock %}
 
